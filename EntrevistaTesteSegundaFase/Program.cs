@@ -32,6 +32,8 @@ namespace EntrevistaTesteSegundaFase
         private static void ExercicioParte3()
         {
             //1 - Extraia o texto do arquivo 'Texto Ipsum.txt' e atribua-o a variável texto
+            //Coloque aqui o caminho do arquivo Ipsum
+            string caminhoArquivoIpsum = @"";
             string texto = default;
 
             //2 - Mostre o texto no console
