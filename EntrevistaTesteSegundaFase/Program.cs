@@ -13,7 +13,7 @@ namespace EntrevistaTesteSegundaFase
         {
             //Durante a realização dos Exercicios fique a vontate para criar pastas e classes
             //Parte 1 - Crie um menu para que o valiador possa escolher 
-            //entre executar a parte 2 ou a parte 3 do exercicio apertando os numeros 2 e 3
+            //entre executar a parte 2 ou a parte 3 do exercicio apertando os numeros 2 e 3 no console
 
             ExercicioParte2();
 
