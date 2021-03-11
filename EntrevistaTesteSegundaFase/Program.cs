@@ -33,6 +33,7 @@ namespace EntrevistaTesteSegundaFase
 
             Console.WriteLine($"A data de amanhã é: {dataDeHoje.ToString("yyyy/MM/dd")}");
 
+            Console.ReadKey();
 
         }
 
