@@ -1,6 +1,7 @@
 ﻿using EntrevistaTesteSegundaFase.Services;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -53,7 +54,7 @@ namespace EntrevistaTesteSegundaFase
             //DICA 2: Use a classe File para extrair o texto
             string caminhoArquivoIpsum = @"";
             string texto = default;
-
+            
             //2 - Mostre o texto do arquivo no console
 
             //3 - No meio do texto tem o valor {Referencia: 958220}.
