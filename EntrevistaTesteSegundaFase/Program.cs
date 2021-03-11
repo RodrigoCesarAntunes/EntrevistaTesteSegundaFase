@@ -12,16 +12,31 @@ namespace EntrevistaTesteSegundaFase
         static void Main(string[] args)
         {
             //Durante a realização dos Exercicios fique a vontate para criar pastas e classes
-            //Parte 1 - Crie um menu para que o usuario possa escolher apertando botões 1, 2 e 3
-            // 1 para sair do programa, 2 para o exercicio parte 2 e 3 para o exercicio parte 3
-
+            //Parte 1 - Crie um menu de console para que o usuario possa escolher apertando botões 1, 2 e 3
+            // 1 para sair do programa, 2 para o exercicio parte 2, 3 para o exercicio parte 3 e 4 para o exericio parte 4
+            // Dica use Console.WriteLine() e Console.ReadLine()
 
             ExercicioParte2();
 
             ExercicioParte3();
+
+            ExercicioParte4();
         }
 
         private static void ExercicioParte2()
+        {
+            //1 - Altere o formato de data para o padrão brasileiro (dd/mm/aaaa)
+            //2 - A data de amanhã está errada, faça com que a data de amanhã seja mostrada corretamente.
+            var dataDeHoje = DateTime.Now;
+
+            Console.WriteLine($"A data de hoje é: {dataDeHoje.ToString("yyyy/MM/dd")}");
+
+            Console.WriteLine($"A data de amanhã é: {dataDeHoje.ToString("yyyy/MM/dd")}");
+
+
+        }
+
+        private static void ExercicioParte3()
         {
             //1 - ordene os numeros de maneira decrescente e mostre no console o resultado.
             var numeros = new int[] { 18, 92, 43, 11, 90, 56, 87, 78, 11, 18, 56};
@@ -30,7 +45,7 @@ namespace EntrevistaTesteSegundaFase
 
         }
 
-        private static void ExercicioParte3()
+        private static void ExercicioParte4()
         {
             //1 - Extraia o texto do arquivo 'Texto Ipsum.txt' e atribua-o a variável texto
             //DICA: Coloque o caminho do arquivo Texto Ipsum na variavel caminhoArquivoIpsum
@@ -41,7 +56,8 @@ namespace EntrevistaTesteSegundaFase
             //2 - Mostre o texto do arquivo no console
 
             //3 - No meio do texto tem o valor {Referencia: 958220}.
-            //    Extraia o valor 958220 direto do texto e atribua-o a variavel referencia.
+            //    Extraia o valor 958220 direto do texto e atribua-o a variável referencia.
+            //Dica use texto.Substring() para extrair o texto desejado
             string referencia = default;
 
 
